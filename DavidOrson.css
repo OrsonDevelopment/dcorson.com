@@ -1,0 +1,152 @@
+body {
+    
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px, 1080px;
+    margin: 0;
+  }
+  
+.header {
+    text-align: center;
+}
+  
+#navbar {
+    overflow: hidden;
+    background-color: #061539;
+    z-index: 1;
+}
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #ffe3aa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+#navbar a:hover {
+    background-color: #ffe3aa;
+    color: #061539;
+}
+  
+#navbar a.active {
+    background-color: #226666;
+    color: #ffe3aa;
+}
+  
+.content {
+    font: Arial;
+}
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.downCarat {
+    padding: 0px 2rem 0px 2rem;
+    color: #553900;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100px;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 100%;
+    background-color: #ffe3aa;
+    
+}
+
+.downCarat:hover {
+    background-color: #ffd1aabb;
+}
+
+h1 {
+    font-size: 200px;
+    color: #553900;
+    background-color: #ffd1aabb;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+    margin: 0;
+    margin-bottom: 500px;
+}
+
+.slogon {
+    color: #553900;
+    background-color: #ffd1aabb;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.forestBackground {
+    height: 1080px;
+    width: 1903px;
+    margin: 0;
+    z-index: 1;
+}
+
+h3 {
+    color: #553900;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #ffd1aa;
+    text-align: center;    
+}
+
+h4 {
+    color: #553900;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #ffd1aa;    
+}
+
+p {
+    color: #553900;
+    background-color: #ffd1aa;   
+}
+
+.aboutMeContent {
+    background-color: #ffd1aa;
+    color: #553900;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.blogContent {
+    background-color: #ffd1aa;
+    color: #553900;
+    border-color: #553900;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.image1 {
+    height: 696px;
+    width: 500px;
+    float: left;
+    padding: 10px;
+}
+
+.image2 {
+    height: 340px;
+    width: 340px;
+    transform: rotate(90deg);
+    float: right;
+    padding: 10px;
+    z-index: 0;
+}
